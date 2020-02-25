@@ -1,0 +1,803 @@
+﻿Log file open, 02/24/20 10:40:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: JourneymanMechanics
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.429857
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.128s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 980 Ti
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Engine.ini]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Engine.ini]
+[2020.02.24-10.40.23:879][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Engine.ini]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Engine.ini]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.24-10.40.23:879][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.24-10.40.23:880][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2020.02.24-10.40.23:880][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.24-10.40.23:880][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.24-10.40.23:880][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2020.02.24-10.40.23:880][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.24-10.40.23:880][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.24-10.40.23:880][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.24-10.40.23:880][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.24-10.40.23:880][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Engine.ini]
+[2020.02.24-10.40.23:880][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Engine.ini]
+[2020.02.24-10.40.23:885][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.24-10.40.23:885][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.24-10.40.23:886][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.24-10.40.23:886][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.24-10.40.23:886][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.24-10.40.23:907][  0]LogHAL: Display: Platform has ~ 32 GB [34271838208 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2020.02.24-10.40.23:907][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.24-10.40.23:907][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.24-10.40.23:907][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.24-10.40.23:908][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.24-10.40.23:908][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Config/Windows/Engine.ini]
+[2020.02.24-10.40.23:909][  0]LogInit: Computer: TU45010
+[2020.02.24-10.40.23:909][  0]LogInit: User: w9171281
+[2020.02.24-10.40.23:909][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.02.24-10.40.23:909][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.24-10.40.23:909][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.02.24-10.40.23:909][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.24-10.40.23:909][  0]LogMemory: Process Physical Memory: 106.76 MB used, 106.77 MB peak
+[2020.02.24-10.40.23:909][  0]LogMemory: Process Virtual Memory: 89.06 MB used, 89.06 MB peak
+[2020.02.24-10.40.23:909][  0]LogMemory: Physical Memory: 7724.68 MB used,  24959.49 MB free, 32684.17 MB total
+[2020.02.24-10.40.23:909][  0]LogMemory: Virtual Memory: 4666.51 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2020.02.24-10.40.23:929][  0]LogInit: Using OS detected language (en-GB).
+[2020.02.24-10.40.23:929][  0]LogInit: Using OS detected locale (en-GB).
+[2020.02.24-10.40.23:931][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.02.24-10.40.24:346][  0]LogStreaming: Display: Took  0.418s to InitEngineTextLocalization.
+[2020.02.24-10.40.24:346][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.24-10.40.24:388][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.24-10.40.24:388][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.24-10.40.24:637][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.24-10.40.24:637][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.24-10.40.24:684][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2020.02.24-10.40.24:684][  0]LogD3D11RHI:       6097/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.24-10.40.24:686][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.24-10.40.24:686][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.24-10.40.24:686][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.24-10.40.24:692][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.24-10.40.24:692][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.24-10.40.24:692][  0]LogWindows: EnumDisplayDevices:
+[2020.02.24-10.40.24:692][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2020.02.24-10.40.24:693][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:1)
+[2020.02.24-10.40.24:694][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2020.02.24-10.40.24:694][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2020.02.24-10.40.24:695][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.02.24-10.40.24:695][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2020.02.24-10.40.24:695][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2020.02.24-10.40.24:695][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2020.02.24-10.40.24:695][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
+[2020.02.24-10.40.24:729][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.24-10.40.24:746][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.02.24-10.40.25:228][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.02.24-10.40.25:242][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.02.24-10.40.25:256][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.02.24-10.40.25:270][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.02.24-10.40.25:284][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.02.24-10.40.25:298][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.02.24-10.40.25:315][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.02.24-10.40.25:329][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.02.24-10.40.25:336][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:423][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.24-10.40.25:425][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.02.24-10.40.25:490][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.02.24-10.40.25:490][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.02.24-10.40.25:514][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.02.24-10.40.25:514][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.02.24-10.40.25:526][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.02.24-10.40.25:539][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.02.24-10.40.25:552][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.02.24-10.40.25:566][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.02.24-10.40.25:616][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.02.24-10.40.25:616][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.02.24-10.40.25:616][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.24-10.40.25:680][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Intermediate/Shaders/WorkingDirectory/12932/).
+[2020.02.24-10.40.25:681][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w9171281/AppData/Local/Temp/UnrealShaderWorkingDir/271F66AE443935A72A603D86C913365B/'.
+[2020.02.24-10.40.25:683][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.24-10.40.25:683][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.24-10.40.25:683][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.24-10.40.26:311][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.24-10.40.26:361][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/w9171281/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2020.02.24-10.40.26:361][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w9171281/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2020.02.24-10.40.26:361][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.24-10.40.26:361][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.24-10.40.26:361][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.24-10.40.26:361][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.24-10.40.26:379][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.24-10.40.26:379][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.24-10.40.26:379][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.24-10.40.26:391][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w9171281/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.24-10.40.26:391][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.24-10.40.26:391][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.24-10.40.26:413][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.24-10.40.26:414][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.24-10.40.26:415][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.24-10.40.26:505][  0]LogAssetRegistry: FAssetRegistry took 0.0339 seconds to start up
+[2020.02.24-10.40.26:892][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.24-10.40.27:061][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.02.24-10.40.27:064][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.02.24-10.40.27:064][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.24-10.40.27:064][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.24-10.40.27:064][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.02.24-10.40.27:076][  0]LogNetVersion: JourneymanMechanics 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2131259677)
+[2020.02.24-10.40.27:628][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.116594 seconds
+[2020.02.24-10.40.27:635][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2020.02.24-10.40.27:635][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2020.02.24-10.40.27:635][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.24-10.40.28:603][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.24-10.40.28:617][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.24-10.40.29:401][  0]SourceControl: Source control is disabled
+[2020.02.24-10.40.29:401][  0]SourceControl: Source control is disabled
+[2020.02.24-10.40.29:402][  0]SourceControl: Source control is disabled
+[2020.02.24-10.40.29:403][  0]SourceControl: Source control is disabled
+[2020.02.24-10.40.29:574][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.24-10.40.29:695][  0]LogOcInput: OculusInput pre-init called
+[2020.02.24-10.40.29:840][  0]LogEngine: Initializing Engine...
+[2020.02.24-10.40.29:841][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.24-10.40.29:842][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.02.24-10.40.29:842][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.02.24-10.40.29:842][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.02.24-10.40.29:842][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.02.24-10.40.30:080][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.24-10.40.30:095][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.24-10.40.30:123][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.24-10.40.30:178][  0]LogInit: FAudioDevice initialized.
+[2020.02.24-10.40.30:178][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.24-10.40.30:251][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/w9171281/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2020.02.24-10.40.30:263][  0]LogInit: Texture streaming: Enabled
+[2020.02.24-10.40.30:282][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.24-10.40.30:307][  0]LogInit: Transaction tracking system initialized
+[2020.02.24-10.40.30:332][  0]BlueprintLog: New page: Editor Load
+[2020.02.24-10.40.30:422][  0]LocalizationService: Localization service is disabled
+[2020.02.24-10.40.30:881][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/' took 0.02s
+[2020.02.24-10.40.30:881][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.24-10.40.30:881][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.24-10.40.30:881][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.02.24-10.40.30:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.02.24-10.40.30:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.02.24-10.40.30:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.02.24-10.40.30:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.02.24-10.40.31:024][  0]SourceControl: Source control is disabled
+[2020.02.24-10.40.31:024][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.24-10.40.31:025][  0]LightingResults: New page: Lighting Build
+[2020.02.24-10.40.31:028][  0]MapCheck: New page: Map Check
+[2020.02.24-10.40.31:028][  0]LightingResults: New page: Lighting Build
+[2020.02.24-10.40.32:602][  0]LogTexture: Display: Building textures: T_HUD_Random (BGRA8, 1227X1225)
+[2020.02.24-10.40.32:602][  0]LogTexture: Display: Building textures: T_Random (AutoDXT, 400X400)
+[2020.02.24-10.40.32:602][  0]LogTexture: Display: Building textures: pop (AutoDXT, 1000X1000)
+[2020.02.24-10.40.32:602][  0]LogMaterial: Display: Missing cached shader map for material DarkWorld, compiling. 
+[2020.02.24-10.40.32:863][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2020.02.24-10.40.32:863][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2020.02.24-10.40.32:863][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2020.02.24-10.40.33:284][  0]LogMaterial: Display: Missing cached shader map for material M_Random, compiling. 
+[2020.02.24-10.40.33:353][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2020.02.24-10.40.33:353][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2020.02.24-10.40.33:353][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2020.02.24-10.40.33:353][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2020.02.24-10.40.33:353][  0]LogStaticMesh: Building static mesh RandomBlock...
+[2020.02.24-10.40.33:359][  0]LogStaticMesh: Built static mesh [0.01s] /Game/TeamFolders/Rachel/RC-Inventory/PickupMeshes/RandomBlock.RandomBlock
+[2020.02.24-10.40.33:363][  0]LogMaterial: Display: Missing cached shader map for material M_Translucent, compiling. 
+[2020.02.24-10.40.33:391][  0]LogStaticMesh: Building static mesh popcorn...
+[2020.02.24-10.40.33:397][  0]LogStaticMesh: Built static mesh [0.01s] /Game/TeamFolders/Rachel/RC-Inventory/PickupMeshes/popcorn.popcorn
+[2020.02.24-10.40.33:401][  0]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.02.24-10.40.33:426][  0]LogStaticMesh: Building static mesh cup...
+[2020.02.24-10.40.33:455][  0]LogStaticMesh: Built static mesh [0.03s] /Game/TeamFolders/Rachel/RC-Inventory/PickupMeshes/cup.cup
+[2020.02.24-10.40.33:461][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.02.24-10.40.33:489][  0]LogStaticMesh: Building static mesh Burgie...
+[2020.02.24-10.40.33:501][  0]LogShaderCompilers: Display: Shaders left to compile 75
+[2020.02.24-10.40.33:501][  0]LogShaderCompilers: Display: Shaders left to compile 65
+[2020.02.24-10.40.33:501][  0]LogShaderCompilers: Display: Shaders left to compile 55
+[2020.02.24-10.40.33:501][  0]LogStaticMesh: Built static mesh [0.01s] /Game/TeamFolders/Rachel/RC-Inventory/PickupMeshes/Burgie.Burgie
+[2020.02.24-10.40.33:505][  0]LogMaterial: Display: Missing cached shader map for material M_Non-Interactive, compiling. 
+[2020.02.24-10.40.33:922][  0]LogShaderCompilers: Display: Shaders left to compile 76
+[2020.02.24-10.40.33:993][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2020.02.24-10.40.34:056][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.24-10.40.34:109][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.24-10.40.34:110][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.283ms to complete.
+[2020.02.24-10.40.34:110][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 3.085
+[2020.02.24-10.40.34:434][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.40.34:445][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.40.34:457][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.40.34:470][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.40.34:481][  0]LogCollectionManager: Loaded 0 collections in 0.002940 seconds
+[2020.02.24-10.40.34:524][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Collections/' took 0.01s
+[2020.02.24-10.40.34:524][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/Developers/w9171281/Collections/' took 0.01s
+[2020.02.24-10.40.34:524][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/Collections/' took 0.01s
+[2020.02.24-10.40.34:524][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.24-10.40.34:539][  0]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2660 classes and 625 folders.
+[2020.02.24-10.40.34:550][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.24-10.40.34:552][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:553][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:554][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:555][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:556][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:557][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:558][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:559][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:559][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:560][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:561][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:562][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:563][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:565][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:566][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:567][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:568][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.24-10.40.34:647][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.24-10.40.34:656][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.02.24-10.40.34:682][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.24-10.40.34:685][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.24-10.40.34:693][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.24-10.40.34:849][  0]LogShaderCompilers: Display: Shaders left to compile 66
+[2020.02.24-10.40.34:849][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2020.02.24-10.40.35:236][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.24-10.40.35:266][  0]LogSlate: Window 'Tutorials' being destroyed
+[2020.02.24-10.40.35:301][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.24-10.40.35:301][  0]LogLoad: (Engine Initialization) Total time: 14.05 seconds
+[2020.02.24-10.40.35:301][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.24-10.40.35:430][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.24-10.40.35:499][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.24-10.40.35:530][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/' took 0.20s
+[2020.02.24-10.40.35:993][  4]LogShaderCompilers: Display: Shaders left to compile 56
+[2020.02.24-10.40.36:309][  7]LogShaderCompilers: Display: Shaders left to compile 46
+[2020.02.24-10.40.36:585][  7]LogShaderCompilers: Display: Shaders left to compile 36
+[2020.02.24-10.40.36:585][  7]LogShaderCompilers: Display: Shaders left to compile 26
+[2020.02.24-10.40.37:527][ 14]LogShaderCompilers: Display: Shaders left to compile 16
+[2020.02.24-10.40.37:771][ 17]LogAssetRegistry: Asset discovery search completed in 11.2883 seconds
+[2020.02.24-10.40.37:775][ 17]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.02.24-10.40.37:775][ 17]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2020.02.24-10.40.38:246][ 44]LogShaderCompilers: Display: Shaders left to compile 6
+[2020.02.24-10.40.39:109][117]LogEditorViewport: Clicking on Actor (LMB): Mario_Character_C (SideScrollerCharacter)
+[2020.02.24-10.40.39:687][133]LogEditorViewport: Clicking on Actor (context menu): Mario_Character_C (SideScrollerCharacter)
+[2020.02.24-10.40.39:715][133]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.24-10.40.40:541][190]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.24-10.40.41:850][295]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.24-10.40.41:856][295]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Mario_Character.Mario_Character
+[2020.02.24-10.40.42:304][295]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2020.02.24-10.40.43:226][295]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.24-10.40.43:814][296]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.24-10.43.12:655][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.45.29:321][548]LogEditorViewport: Clicking on Actor (context menu): Mario_Character_C (SideScrollerCharacter)
+[2020.02.24-10.45.29:339][548]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.24-10.45.29:928][607]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.24-10.46.09:750][307]BlueprintLog: New page: Compile Mario_Character
+[2020.02.24-10.46.12:014][348]LogSavePackage: Moving '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Mario_Character6098181F409634A8DAE5B2A25A281BEC.tmp' to '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/SideScrollerBP/Blueprints/Mario_Character.uasset'
+[2020.02.24-10.46.13:665][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.46.13:786][452]LogSlate: Window 'Mario_Character' being destroyed
+[2020.02.24-10.46.13:791][452]LogSlate: Window 'Mario_Character' being destroyed
+[2020.02.24-10.46.16:350][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.46.32:036][219]LogAIModule: Creating AISystem for world KS_mechanics_Sandbox_map1
+[2020.02.24-10.46.32:041][219]LogAssetEditorManager: Opening Asset editor for World /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1
+[2020.02.24-10.46.34:150][219]LogSlate: Window 'Save Content' being destroyed
+[2020.02.24-10.46.34:612][219]LogSavePackage: Moving '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/SideScrollerExampleMapC9072F624E688DB6DBD2DE9DC4B36EB8.tmp' to '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2020.02.24-10.46.34:671][219]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.513
+[2020.02.24-10.46.34:672][219]LightingResults: New page: Lighting Build
+[2020.02.24-10.46.34:673][219]LoadErrors: New page: Loading map: KS_mechanics_Sandbox_map1.umap
+[2020.02.24-10.46.34:700][219]MapCheck: New page: Map Check
+[2020.02.24-10.46.34:700][219]LightingResults: New page: Lighting Build
+[2020.02.24-10.46.34:733][219]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.24-10.46.34:818][219]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.24-10.46.34:820][219]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.638ms to complete.
+[2020.02.24-10.46.34:820][219]LogFileHelpers: Loading map 'KS_mechanics_Sandbox_map1' took 0.149
+[2020.02.24-10.46.35:070][219]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2020.02.24-10.46.36:421][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.46.36:520][378]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.24-10.46.36:554][378]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.46.36:554][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.24-10.46.36:555][378]PIE: New page: PIE session: KS_mechanics_Sandbox_map1 (24 Feb 2020 10:46:36)
+[2020.02.24-10.46.36:567][378]LogPlayLevel: Creating play world package: /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1
+[2020.02.24-10.46.36:570][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002901s)
+[2020.02.24-10.46.36:571][378]LogAIModule: Creating AISystem for world KS_mechanics_Sandbox_map1
+[2020.02.24-10.46.36:571][378]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2020.02.24-10.46.36:571][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 to /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 (0.003906s)
+[2020.02.24-10.46.36:625][378]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.24-10.46.36:661][378]LogInit: FAudioDevice initialized.
+[2020.02.24-10.46.36:708][378]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.02.24-10.46.36:710][378]LogWorld: Bringing World /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 up for play (max tick rate 0) at 2020.02.24-10.46.36
+[2020.02.24-10.46.36:710][378]LogWorld: Bringing up level for play took: 0.000694
+[2020.02.24-10.46.36:740][378]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.02.24-10.46.36:747][378]PIE: Play in editor start time for /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1 1.064
+[2020.02.24-10.46.36:748][378]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.46.37:257][433]LogBlueprintUserMessages: [Mario_Character_C_0] Cannot switch while overlapping
+[2020.02.24-10.46.40:651][840]LogBlueprintUserMessages: [Mario_Character_C_0] Hello
+[2020.02.24-10.46.44:978][359]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.46.44:979][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.46.45:015][359]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.24-10.46.45:016][359]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.46.45:048][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.46.45:083][361]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.02.24-10.46.48:431][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.46.51:379][ 81]LogTexture: Display: Building textures: marioface1_PLACEHOLDER (AutoDXT, 1024X1024)
+[2020.02.24-10.46.51:379][ 81]LogTexture: Display: Building textures: coincreditsiconhudmk1 (AutoDXT, 1024X1024)
+[2020.02.24-10.46.51:387][ 81]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TeamFolders/Keenan/KS_hud_content/HUD_mario_mk1.HUD_mario_mk1
+[2020.02.24-10.46.54:237][276]LogSlate: Window 'HUD_mario_mk1' being destroyed
+[2020.02.24-10.46.54:241][276]LogSlate: Window 'HUD_mario_mk1' being destroyed
+[2020.02.24-10.46.55:340][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.46.59:488][891]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TeamFolders/Keenan/KS_conceptsonly/KEENAN_RENAME_THIS.KEENAN_RENAME_THIS
+[2020.02.24-10.47.08:112][430]BlueprintLog: New page: Compile KEENAN_RENAME_THIS
+[2020.02.24-10.47.09:001][477]LogSavePackage: Moving '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/KEENAN_RENAME_THISC75B310C46B364DC9F9AD69C5C75A442.tmp' to '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/TeamFolders/Keenan/KS_conceptsonly/KEENAN_RENAME_THIS.uasset'
+[2020.02.24-10.47.10:124][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.10:229][559]LogSlate: Window 'KEENAN_RENAME_THIS' being destroyed
+[2020.02.24-10.47.10:233][559]LogSlate: Window 'KEENAN_RENAME_THIS' being destroyed
+[2020.02.24-10.47.10:943][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.11:018][646]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.24-10.47.11:050][646]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.11:051][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.24-10.47.11:051][646]PIE: New page: PIE session: KS_mechanics_Sandbox_map1 (24 Feb 2020 10:47:11)
+[2020.02.24-10.47.11:051][646]LogPlayLevel: Creating play world package: /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1
+[2020.02.24-10.47.11:053][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002398s)
+[2020.02.24-10.47.11:054][646]LogAIModule: Creating AISystem for world KS_mechanics_Sandbox_map1
+[2020.02.24-10.47.11:054][646]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2020.02.24-10.47.11:054][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 to /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 (0.003351s)
+[2020.02.24-10.47.11:109][646]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.24-10.47.11:146][646]LogInit: FAudioDevice initialized.
+[2020.02.24-10.47.11:176][646]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.02.24-10.47.11:176][646]LogWorld: Bringing World /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 up for play (max tick rate 0) at 2020.02.24-10.47.11
+[2020.02.24-10.47.11:176][646]LogWorld: Bringing up level for play took: 0.000627
+[2020.02.24-10.47.11:190][646]PIE: Play in editor start time for /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1 -0.492
+[2020.02.24-10.47.11:190][646]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.11:521][682]LogBlueprintUserMessages: [Mario_Character_C_0] Cannot switch while overlapping
+[2020.02.24-10.47.13:614][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.13:614][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.47.13:648][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.24-10.47.13:649][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.13:686][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.47.13:722][935]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.02.24-10.47.14:837][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.15:008][ 88]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TeamFolders/Keenan/KS_conceptsonly/KEENAN_RENAME_THIS.KEENAN_RENAME_THIS
+[2020.02.24-10.47.19:616][357]BlueprintLog: New page: Compile KEENAN_RENAME_THIS
+[2020.02.24-10.47.20:367][393]LogSavePackage: Moving '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/KEENAN_RENAME_THISF2F520524AA6420B315996A74FD91E4A.tmp' to '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/TeamFolders/Keenan/KS_conceptsonly/KEENAN_RENAME_THIS.uasset'
+[2020.02.24-10.47.21:552][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.21:669][478]LogSlate: Window 'KEENAN_RENAME_THIS' being destroyed
+[2020.02.24-10.47.21:673][478]LogSlate: Window 'KEENAN_RENAME_THIS' being destroyed
+[2020.02.24-10.47.23:073][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.23:156][649]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.24-10.47.23:184][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.23:184][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.24-10.47.23:184][649]PIE: New page: PIE session: KS_mechanics_Sandbox_map1 (24 Feb 2020 10:47:23)
+[2020.02.24-10.47.23:184][649]LogPlayLevel: Creating play world package: /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1
+[2020.02.24-10.47.23:187][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002407s)
+[2020.02.24-10.47.23:187][649]LogAIModule: Creating AISystem for world KS_mechanics_Sandbox_map1
+[2020.02.24-10.47.23:188][649]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2020.02.24-10.47.23:188][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 to /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 (0.003211s)
+[2020.02.24-10.47.23:239][649]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.24-10.47.23:279][649]LogInit: FAudioDevice initialized.
+[2020.02.24-10.47.23:311][649]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.02.24-10.47.23:312][649]LogWorld: Bringing World /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 up for play (max tick rate 0) at 2020.02.24-10.47.23
+[2020.02.24-10.47.23:312][649]LogWorld: Bringing up level for play took: 0.000671
+[2020.02.24-10.47.23:326][649]PIE: Play in editor start time for /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1 -0.356
+[2020.02.24-10.47.23:327][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.23:847][709]LogBlueprintUserMessages: [Mario_Character_C_0] Cannot switch while overlapping
+[2020.02.24-10.47.25:748][937]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.25:748][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.47.25:780][937]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.24-10.47.25:780][937]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.25:820][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.47.25:855][939]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.02.24-10.47.26:522][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.26:703][ 39]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TeamFolders/Keenan/KS_conceptsonly/KEENAN_RENAME_THIS.KEENAN_RENAME_THIS
+[2020.02.24-10.47.33:324][439]BlueprintLog: New page: Compile KEENAN_RENAME_THIS
+[2020.02.24-10.47.34:065][479]LogSavePackage: Moving '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/KEENAN_RENAME_THIS9934BA0F40A1A991CBCC6E9FE60F8CF9.tmp' to '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/TeamFolders/Keenan/KS_conceptsonly/KEENAN_RENAME_THIS.uasset'
+[2020.02.24-10.47.34:857][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.34:944][538]LogSlate: Window 'KEENAN_RENAME_THIS' being destroyed
+[2020.02.24-10.47.34:948][538]LogSlate: Window 'KEENAN_RENAME_THIS' being destroyed
+[2020.02.24-10.47.35:674][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.35:774][630]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.24-10.47.35:803][630]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.35:803][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.24-10.47.35:803][630]PIE: New page: PIE session: KS_mechanics_Sandbox_map1 (24 Feb 2020 10:47:35)
+[2020.02.24-10.47.35:803][630]LogPlayLevel: Creating play world package: /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1
+[2020.02.24-10.47.35:806][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002375s)
+[2020.02.24-10.47.35:806][630]LogAIModule: Creating AISystem for world KS_mechanics_Sandbox_map1
+[2020.02.24-10.47.35:806][630]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2020.02.24-10.47.35:806][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 to /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 (0.003263s)
+[2020.02.24-10.47.35:860][630]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.24-10.47.35:897][630]LogInit: FAudioDevice initialized.
+[2020.02.24-10.47.35:927][630]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.02.24-10.47.35:928][630]LogWorld: Bringing World /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 up for play (max tick rate 0) at 2020.02.24-10.47.35
+[2020.02.24-10.47.35:929][630]LogWorld: Bringing up level for play took: 0.000642
+[2020.02.24-10.47.35:945][630]PIE: Play in editor start time for /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1 0.263
+[2020.02.24-10.47.35:945][630]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.36:265][666]LogBlueprintUserMessages: [Mario_Character_C_0] Cannot switch while overlapping
+[2020.02.24-10.47.38:116][888]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.38:116][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.47.38:151][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.24-10.47.38:152][888]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.38:192][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.47.38:217][889]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.02.24-10.47.38:869][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.39:058][988]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TeamFolders/Keenan/KS_conceptsonly/KEENAN_RENAME_THIS.KEENAN_RENAME_THIS
+[2020.02.24-10.47.46:942][463]BlueprintLog: New page: Compile KEENAN_RENAME_THIS
+[2020.02.24-10.47.47:486][486]LogSavePackage: Moving '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/KEENAN_RENAME_THISB42A688C4BA9768D520B398C82363C59.tmp' to '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/TeamFolders/Keenan/KS_conceptsonly/KEENAN_RENAME_THIS.uasset'
+[2020.02.24-10.47.48:426][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.48:507][550]LogSlate: Window 'KEENAN_RENAME_THIS' being destroyed
+[2020.02.24-10.47.48:512][550]LogSlate: Window 'KEENAN_RENAME_THIS' being destroyed
+[2020.02.24-10.47.49:577][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.47.49:652][680]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.24-10.47.49:680][680]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.49:680][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.24-10.47.49:680][680]PIE: New page: PIE session: KS_mechanics_Sandbox_map1 (24 Feb 2020 10:47:49)
+[2020.02.24-10.47.49:680][680]LogPlayLevel: Creating play world package: /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1
+[2020.02.24-10.47.49:683][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002279s)
+[2020.02.24-10.47.49:683][680]LogAIModule: Creating AISystem for world KS_mechanics_Sandbox_map1
+[2020.02.24-10.47.49:683][680]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2020.02.24-10.47.49:683][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 to /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 (0.003119s)
+[2020.02.24-10.47.49:733][680]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.24-10.47.49:771][680]LogInit: FAudioDevice initialized.
+[2020.02.24-10.47.49:807][680]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.02.24-10.47.49:809][680]LogWorld: Bringing World /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1 up for play (max tick rate 0) at 2020.02.24-10.47.49
+[2020.02.24-10.47.49:809][680]LogWorld: Bringing up level for play took: 0.001153
+[2020.02.24-10.47.49:823][680]PIE: Play in editor start time for /Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/UEDPIE_0_KS_mechanics_Sandbox_map1 0.141
+[2020.02.24-10.47.49:824][680]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.50:062][705]LogBlueprintUserMessages: [Mario_Character_C_0] Cannot switch while overlapping
+[2020.02.24-10.47.53:104][ 70]LogBlueprintUserMessages: [Mario_Character_C_0] Hello
+[2020.02.24-10.47.57:571][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.57:572][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.47.57:608][606]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.24-10.47.57:608][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel' has LevelScriptBlueprint '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1' with GeneratedClass '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1_C' with ClassGeneratedBy '/Game/TeamFolders/Keenan/KS_Mechanics_Sandbox/KS_mechanics_Sandbox_map1.KS_mechanics_Sandbox_map1:PersistentLevel.KS_mechanics_Sandbox_map1'
+[2020.02.24-10.47.57:648][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.24-10.47.57:682][608]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.02.24-10.47.59:798][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.24-10.48.40:207][746]LogMetaData: Removing '/Game/TeamFolders/Keenan/KS_conceptsonly/TimeSlowMechanic_widget.TimeSlowMechanic_widget_C' ref from Metadata '/Game/TeamFolders/Keenan/KS_conceptsonly/KEENAN_RENAME_THIS.PackageMetaData'
+[2020.02.24-10.48.40:207][746]LogMetaData: Removing '/Game/TeamFolders/Keenan/KS_conceptsonly/TimeSlowMechanic_widget.SKEL_TimeSlowMechanic_widget_C' ref from Metadata '/Game/TeamFolders/Keenan/KS_conceptsonly/KEENAN_RENAME_THIS.PackageMetaData'
+[2020.02.24-10.48.40:241][746]LogSavePackage: Moving '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/TimeSlowMechanic_widget6B5F980A43F9EF280DAA43B700DBFC7E.tmp' to '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/TeamFolders/Keenan/KS_conceptsonly/TimeSlowMechanic_widget.uasset'
+[2020.02.24-10.48.40:802][746]LogSavePackage: Moving '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/Mario_Character29286429426957BD2217C5889EAB8E3F.tmp' to '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/SideScrollerBP/Blueprints/Mario_Character.uasset'
+[2020.02.24-10.48.44:351][ 93]LogSavePackage: Moving '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Saved/SideScrollerExampleMap12CAC3674C973879B04EBE921D6282BE.tmp' to '../../../../../../Users/w9171281/Documents/jmanks2020/JourneymanMechanics/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2020.02.24-10.48.44:379][ 93]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.492
